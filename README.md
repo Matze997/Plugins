@@ -7,3 +7,5 @@ They could be outdated.
 # [Booster](https://github.com/Matze997/Plugins/tree/main/Booster)
 
 # [FastFood](https://github.com/Matze997/Plugins/tree/main/FastFood)
+
+# [BetterKnockback](https://github.com/Matze997/Plugins/tree/main/BetterKnockback)
