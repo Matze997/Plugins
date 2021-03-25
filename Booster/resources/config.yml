@@ -1,0 +1,44 @@
+#Command
+Command: "booster"
+Description: "Booster Command"
+Usage: "/booster <Spieler> <Anzahl>"
+Aliases: ["b"]
+
+#Messages
+#Variables:
+# - %name% => Player Name
+# - %amount% => Count of Boosters
+# - %booster% => Booster Name
+# - %time% => Time in seconds or minutes
+Message-Booster-Given: "§aDu hast§6 %name% %amount% §aBooster gegeben"
+Message-Booster-Already-Active: "§aBooster bereits Aktiv!"
+Message-Not-Enough-Booster: "§aDu hast nicht genügend Booster!"
+Message-Broadcast-Booster-Started: "§a%booster% Booster wurde von %name% Aktiviert!"
+Message-Broadcast-Booster-Ends-Minutes: "§a%booster% Booster endet in %time% Minuten!"
+Message-Broadcast-Booster-Ends-Seconds: "§a%booster% Booster endet in %time% Sekunden!"
+Message-Broadcast-Booster-LastSecond: "§a%booster% Booster endet in %time% Sekunde!"
+Message-Broadcast-Booster-Ended: "§a%booster% Booster wurde Deaktiviert!"
+
+#Form
+Form-Title: "§lBooster"
+Form-Content1: "§7Deine Booster: %amount%" #Variables: %amount%
+Form-Content2: "§7Möchtest du den %target% Booster aktivieren?"
+Form-Button1: "§0Fly Booster"
+Form-Button2: "§0Break Booster"
+Form-Button3: "§0Stärke Booster"
+Form-Button4: "§0Drop Booster"
+Form-Button5: "§0XP Booster"
+Form-Button6: "§0Schließen"
+Form-Button7: "§0Ja"
+Form-Button8: "§0Nein"
+
+#Other Settings
+Message-Seconds: [30, 10, 5, 2, 1]
+Message-Minutes: [300] # 5 Minutes = 300, 1 Minute = 60 => $minutes * 60
+
+#Booster Names
+Booster1: "Fly"
+Booster2: "Break"
+Booster3: "Stärke"
+Booster4: "Drop"
+Booster5: "XP"
